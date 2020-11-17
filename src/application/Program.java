@@ -31,7 +31,7 @@ public class Program {
 			st.setDate(3, new java.sql.Date(sdf.parse("22/04/1986").getTime()));
 			st.setDouble(4, 3000.0);
 			st.setInt(5, 4);
-			
+			System.out.println();
 			int rowsAffected =  st.executeUpdate();
 			
 			if (rowsAffected > 0) {
